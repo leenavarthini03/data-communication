@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppParentComponent {
   search: string = '';
-  leena: string = 'sumanth';
+  leena: string = 'sumanthsunil';
   getSearchText(value: any) {
-    alert(value);
+    this.leena;
   }
 
 
