@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-parent.component.css']
 })
 export class AppParentComponent {
+  search: string = '';
+  leena: string = 'sumanth';
+  getSearchText(value: any) {
+    alert(value);
+  }
+
 
 }

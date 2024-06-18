@@ -1,1 +1,3 @@
-<p>app-parent works!</p>
+<p>app-parent works! : {{search}}</p>
+
+<app-app-child (searchTextEmitter)="getSearchText($event)" [item]="leena"></app-app-child>
